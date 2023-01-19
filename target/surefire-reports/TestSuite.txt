@@ -1,4 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.506 sec
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.174 sec <<< FAILURE!
+validateTechGlobalLogo(scripts.TechGlobalLogoTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at scripts.TechGlobalLogoTest.validateTechGlobalLogo(TechGlobalLogoTest.java:10)
+
+dynamicElementsTest(scripts.TechGlobalDynamicElementsTest)  Time elapsed: 0.419 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Box 2] but found [Box 1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at scripts.TechGlobalDynamicElementsTest.dynamicElementsTest(TechGlobalDynamicElementsTest.java:25)
+

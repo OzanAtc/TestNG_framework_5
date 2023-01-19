@@ -1,5 +1,9 @@
 package utilities;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 public class Waiter {
 
     public static void pause(int seconds){
@@ -10,4 +14,15 @@ public class Waiter {
         }
     }
 
+    public static void waitForVisibilityOfElements(WebElement element, int seconds) {
+        new WebDriverWait(Driver.getDriver(), 60).until(ExpectedConditions.visibilityOf(element));
+    }
+
+    public static void waitForElementTobeClickable(WebElement element, int seconds) {
+        new WebDriverWait(Driver.getDriver(), seconds).until(ExpectedConditions.elementToBeClickable(element));
+    }
+
+    public static void waitUntilTitleIs(String title, int seconds) {
+        new WebDriverWait(Driver.getDriver(), seconds).until(ExpectedConditions.titleIs(title));
+    }
 }

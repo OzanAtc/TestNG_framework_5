@@ -3,14 +3,21 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="scripts.TechGlobalFrontendTestingHomeTest">
+      <class name="scripts.TechGlobalLogoTest">
         <methods>
           <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="validateFrontEndTestingURL"/>
-          <include name="setPage"/>
+          <include name="teardown"/>
+          <include name="validateTechGlobalLogo"/>
         </methods>
-      </class> <!-- scripts.TechGlobalFrontendTestingHomeTest -->
+      </class> <!-- scripts.TechGlobalLogoTest -->
+      <class name="scripts.TechGlobalDynamicElementsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="setPage"/>
+          <include name="dynamicElementsTest"/>
+        </methods>
+      </class> <!-- scripts.TechGlobalDynamicElementsTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

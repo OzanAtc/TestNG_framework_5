@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestSuite" time="1.462" errors="0" skipped="0">
+<testsuite tests="8" failures="2" name="TestSuite" time="37.848" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib"/>
@@ -64,9 +64,43 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="scripts.TechGlobalFrontendTestingHomeTest" name="validateFrontendTestingCards" time="0.979"/>
-  <testcase classname="scripts.TechGlobalFrontendTestingHomeTest" name="validateFrontendTestingURL" time="0.215"/>
-  <testcase classname="scripts.TechGlobalLogoTest" name="validateTechGlobalLogo" time="0.025"/>
-  <testcase classname="scripts.TechGlobalHeaderTest" name="validateTechGlobalHeaderDropdown" time="0.04"/>
+  <testcase classname="scripts.TechGlobalFrontendTestingHomeTest" name="validateFrontendTestingCards" time="1.005"/>
+  <testcase classname="scripts.TechGlobalFrontendTestingHomeTest" name="validateFrontendTestingURL" time="0.231"/>
+  <testcase classname="scripts.TechGlobalLogoTest" name="validateTechGlobalLogo" time="0.025">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at scripts.TechGlobalLogoTest.validateTechGlobalLogo(TechGlobalLogoTest.java:10)
+</failure>
+    <system-err>Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 18478
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 18, 2023 8:10:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="scripts.TechGlobalHeaderTest" name="validateTechGlobalHeaderDropdown" time="0.044"/>
   <testcase classname="scripts.TechGlobalHeaderTest" name="validateTechGlobalHeaderDropdownOptions" time="0.203"/>
+  <testcase classname="scripts.TechGlobalWaitsTest" name="validateRedBox" time="35.457"/>
+  <testcase classname="scripts.TechGlobalDynamicElementsTest" name="dynamicElementsTest" time="0.419">
+    <failure message="expected [Box 2] but found [Box 1]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Box 2] but found [Box 1]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at org.testng.Assert.assertEquals(Assert.java:585)
+	at scripts.TechGlobalDynamicElementsTest.dynamicElementsTest(TechGlobalDynamicElementsTest.java:25)
+</failure>
+    <system-err>Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 3070
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 18, 2023 8:11:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="scripts.TechGlobalRadioButtonsTest" name="languageRadioButtons" time="0.464"/>
 </testsuite>
