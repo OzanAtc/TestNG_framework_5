@@ -76,8 +76,6 @@ public class TechGlobalRadioButtonsTest extends TechGlobalBase{
          */
 
 
-
-
     @Test(priority = 2, description = "Validate TechGlobal Language Practice")
     public void languageRadioButtons2(){
 

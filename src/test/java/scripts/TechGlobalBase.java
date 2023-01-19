@@ -13,6 +13,7 @@ public class TechGlobalBase {
     TechGlobalDynamicElementsPage techGlobalDynamicElementsPage;
     TechGlobalWaitsPage techGlobalWaitsPage;
     TechGlobalRadioButtonsPage techGlobalRadioButtonsPage;
+    TechGlobalCheckBoxPage techGlobalCheckBoxPage;
 
     @BeforeMethod
     public void setup() {
