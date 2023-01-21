@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods failed suite-Command_line_suite"> (show)</a> <!-- show-methods failed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content failed suite-Command_line_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalDynamicElementsTest" hash-for-method="dynamicElementsTest">dynamicElementsTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalLogoTest" hash-for-method="validateTechGlobalLogo">validateTechGlobalLogo</a> <!-- method navigator-link -->
@@ -121,7 +116,27 @@
                     <div class="method-list-content passed suite-Command_line_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalDynamicElementsTest" hash-for-method="dynamicElementsTest">dynamicElementsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalRadioButtonsTest" hash-for-method="languageRadioButtons">languageRadioButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalRadioButtonsTest" hash-for-method="languageRadioButtons2">languageRadioButtons2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalCheckBoxTest" hash-for-method="validateCheckBoxes">validateCheckBoxes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="scripts.TechGlobalCheckBoxTest" hash-for-method="validateCheckBoxes2">validateCheckBoxes2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -181,28 +196,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Command_line_suite-class-failed -->
-          <div class="suite-Command_line_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">scripts.TechGlobalDynamicElementsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dynamicElementsTest">
-                  </a> <!-- dynamicElementsTest -->
-                  <span class="method-name">dynamicElementsTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Box 2] but found [Box 1]
-	at scripts.TechGlobalDynamicElementsTest.dynamicElementsTest(TechGlobalDynamicElementsTest.java:25)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 42 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Testing Dynamic Web Elements)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-failed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -232,16 +225,25 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">scripts.TechGlobalWaitsTest</span>
+              <span class="class-name">scripts.TechGlobalCheckBoxTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateRedBox">
-                  </a> <!-- validateRedBox -->
-                  <span class="method-name">validateRedBox</span>
+                  <a name="validateCheckBoxes">
+                  </a> <!-- validateCheckBoxes -->
+                  <span class="method-name">validateCheckBoxes</span>
                   <em>
-(Validate red box is visible)                  </em>
+(Validate checkboxes)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCheckBoxes2">
+                  </a> <!-- validateCheckBoxes2 -->
+                  <span class="method-name">validateCheckBoxes2</span>
+                  <em>
+(Validate checkboxes of second group)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -258,7 +260,50 @@
                   </a> <!-- languageRadioButtons -->
                   <span class="method-name">languageRadioButtons</span>
                   <em>
-(Validating TechGlobal Language Radio Buttons)                  </em>
+(Validate TechGlobal Language Radio Buttons)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="languageRadioButtons2">
+                  </a> <!-- languageRadioButtons2 -->
+                  <span class="method-name">languageRadioButtons2</span>
+                  <em>
+(Validate TechGlobal Language Practice)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.TechGlobalDynamicElementsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dynamicElementsTest">
+                  </a> <!-- dynamicElementsTest -->
+                  <span class="method-name">dynamicElementsTest</span>
+                  <em>
+(Testing Dynamic Web Elements)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Command_line_suite-class-passed -->
+          <div class="suite-Command_line_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.TechGlobalWaitsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRedBox">
+                  </a> <!-- validateRedBox -->
+                  <span class="method-name">validateRedBox</span>
+                  <em>
+(Validate red box is visible)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -299,6 +344,7 @@
       &lt;class name=&quot;scripts.TechGlobalFrontendTestingHomeTest&quot;/&gt;
       &lt;class name=&quot;scripts.TechGlobalLogoTest&quot;/&gt;
       &lt;class name=&quot;scripts.TechGlobalHeaderTest&quot;/&gt;
+      &lt;class name=&quot;scripts.TechGlobalCheckBoxTest&quot;/&gt;
       &lt;class name=&quot;scripts.TechGlobalWaitsTest&quot;/&gt;
       &lt;class name=&quot;scripts.TechGlobalDynamicElementsTest&quot;/&gt;
       &lt;class name=&quot;scripts.TechGlobalRadioButtonsTest&quot;/&gt;
@@ -315,7 +361,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (6 classes)</span>
+                <span class="test-name">Command line test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -341,44 +387,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateRedBox')
 data.setCell(0, 2, 'scripts.TechGlobalWaitsTest')
-data.setCell(0, 3, 35457);
+data.setCell(0, 3, 35463);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateFrontendTestingCards')
-data.setCell(1, 2, 'scripts.TechGlobalFrontendTestingHomeTest')
-data.setCell(1, 3, 1003);
+data.setCell(1, 1, 'languageRadioButtons')
+data.setCell(1, 2, 'scripts.TechGlobalRadioButtonsTest')
+data.setCell(1, 3, 6628);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'languageRadioButtons')
-data.setCell(2, 2, 'scripts.TechGlobalRadioButtonsTest')
-data.setCell(2, 3, 465);
+data.setCell(2, 1, 'validateCheckBoxes')
+data.setCell(2, 2, 'scripts.TechGlobalCheckBoxTest')
+data.setCell(2, 3, 4587);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'dynamicElementsTest')
-data.setCell(3, 2, 'scripts.TechGlobalDynamicElementsTest')
-data.setCell(3, 3, 418);
+data.setCell(3, 1, 'validateFrontendTestingCards')
+data.setCell(3, 2, 'scripts.TechGlobalFrontendTestingHomeTest')
+data.setCell(3, 3, 981);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateFrontendTestingURL')
-data.setCell(4, 2, 'scripts.TechGlobalFrontendTestingHomeTest')
-data.setCell(4, 3, 231);
+data.setCell(4, 1, 'validateCheckBoxes2')
+data.setCell(4, 2, 'scripts.TechGlobalCheckBoxTest')
+data.setCell(4, 3, 582);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateTechGlobalHeaderDropdownOptions')
-data.setCell(5, 2, 'scripts.TechGlobalHeaderTest')
-data.setCell(5, 3, 203);
+data.setCell(5, 1, 'languageRadioButtons2')
+data.setCell(5, 2, 'scripts.TechGlobalRadioButtonsTest')
+data.setCell(5, 3, 575);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateTechGlobalHeaderDropdown')
-data.setCell(6, 2, 'scripts.TechGlobalHeaderTest')
-data.setCell(6, 3, 44);
+data.setCell(6, 1, 'dynamicElementsTest')
+data.setCell(6, 2, 'scripts.TechGlobalDynamicElementsTest')
+data.setCell(6, 3, 423);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateTechGlobalLogo')
-data.setCell(7, 2, 'scripts.TechGlobalLogoTest')
-data.setCell(7, 3, 23);
+data.setCell(7, 1, 'validateFrontendTestingURL')
+data.setCell(7, 2, 'scripts.TechGlobalFrontendTestingHomeTest')
+data.setCell(7, 3, 250);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateTechGlobalHeaderDropdownOptions')
+data.setCell(8, 2, 'scripts.TechGlobalHeaderTest')
+data.setCell(8, 3, 199);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateTechGlobalHeaderDropdown')
+data.setCell(9, 2, 'scripts.TechGlobalHeaderTest')
+data.setCell(9, 3, 41);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateTechGlobalLogo')
+data.setCell(10, 2, 'scripts.TechGlobalLogoTest')
+data.setCell(10, 3, 24);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -411,134 +469,183 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">2471 ms</span>
+                <span class="method-start">2452 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFrontendTestingCards</span>
-                <span class="method-start">2472 ms</span>
+                <span class="method-start">2453 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">3477 ms</span>
+                <span class="method-start">3436 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">3562 ms</span>
+                <span class="method-start">3520 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">5360 ms</span>
+                <span class="method-start">5415 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFrontendTestingURL</span>
-                <span class="method-start">5361 ms</span>
+                <span class="method-start">5416 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">5592 ms</span>
+                <span class="method-start">5666 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.TechGlobalLogoTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">5676 ms</span>
+                <span class="method-start">5750 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateTechGlobalLogo</span>
-                <span class="method-start">7496 ms</span>
+                <span class="method-start">7527 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">7521 ms</span>
+                <span class="method-start">7553 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.TechGlobalHeaderTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7603 ms</span>
+                <span class="method-start">7652 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTechGlobalHeaderDropdown</span>
-                <span class="method-start">9411 ms</span>
+                <span class="method-start">9481 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">9455 ms</span>
+                <span class="method-start">9522 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9537 ms</span>
+                <span class="method-start">9606 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTechGlobalHeaderDropdownOptions</span>
-                <span class="method-start">11430 ms</span>
+                <span class="method-start">11387 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11633 ms</span>
+                <span class="method-start">11586 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.TechGlobalCheckBoxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">13613 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckBoxes</span>
+                <span class="method-start">13615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">18202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">20057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCheckBoxes2</span>
+                <span class="method-start">20058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">20641 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.TechGlobalWaitsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">11715 ms</span>
+                <span class="method-start">20723 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">13529 ms</span>
+                <span class="method-start">22566 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateRedBox</span>
-                <span class="method-start">13530 ms</span>
+                <span class="method-start">22567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">48987 ms</span>
+                <span class="method-start">58030 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.TechGlobalDynamicElementsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">49081 ms</span>
+                <span class="method-start">58121 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">51053 ms</span>
+                <span class="method-start">59963 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">dynamicElementsTest</span>
-                <span class="method-start">51054 ms</span>
+                <span class="method-start">59964 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">51473 ms</span>
+                <span class="method-start">60387 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.TechGlobalRadioButtonsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">51557 ms</span>
+                <span class="method-start">60472 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setPage</span>
-                <span class="method-start">53364 ms</span>
+                <span class="method-start">62279 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">languageRadioButtons</span>
-                <span class="method-start">53364 ms</span>
+                <span class="method-start">62280 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">53829 ms</span>
+                <span class="method-start">68908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">68995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setPage</span>
+                <span class="method-start">71481 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">languageRadioButtons2</span>
+                <span class="method-start">71481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">72057 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

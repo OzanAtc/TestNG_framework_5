@@ -10,14 +10,6 @@
           <include name="validateTechGlobalLogo"/>
         </methods>
       </class> <!-- scripts.TechGlobalLogoTest -->
-      <class name="scripts.TechGlobalDynamicElementsTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="setPage"/>
-          <include name="dynamicElementsTest"/>
-        </methods>
-      </class> <!-- scripts.TechGlobalDynamicElementsTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

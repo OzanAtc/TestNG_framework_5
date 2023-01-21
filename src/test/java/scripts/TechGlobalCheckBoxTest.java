@@ -32,13 +32,20 @@ Deselect bpth and validate they are deselected
         techGlobalFrontendTestingHomePage.getFrontendTestingPage();
         techGlobalFrontendTestingHomePage.clickOnCard(6);
 
+        techGlobalCheckBoxPage.checkboxInput.forEach(cb -> {
+            Assert.assertTrue(cb.isDisplayed());
+            Assert.assertFalse(cb.isSelected());
+            Assert.assertTrue(cb.isEnabled());
+        });
+
+        /*
         for (int i = 0; i < techGlobalCheckBoxPage.checkboxInput.size(); i++) {
 
             Assert.assertTrue(techGlobalCheckBoxPage.checkboxInput.get(i).isDisplayed());
             Assert.assertFalse(techGlobalCheckBoxPage.checkboxInput.get(i).isSelected());
             Assert.assertTrue(techGlobalCheckBoxPage.checkboxInput.get(i).isEnabled());
         }
-
+         */
         for (int i = 0; i < techGlobalCheckBoxPage.checkboxInput.size(); i++) {
             techGlobalCheckBoxPage.checkboxInput.get(i).click();
             Waiter.pause(1);
@@ -52,6 +59,36 @@ Deselect bpth and validate they are deselected
             Assert.assertFalse(techGlobalCheckBoxPage.checkboxInput.get(i).isSelected());
 
         }
+
     }
+
+    @Test(priority = 2, description = "Validate checkboxes of second group")
+    public void validateCheckBoxes2(){
+
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.clickOnCard(6);
+
+        techGlobalCheckBoxPage.checkboxInput.forEach(cb -> {
+
+            Assert.assertTrue(cb.isDisplayed());
+            Assert.assertTrue(cb.isEnabled());
+            Assert.assertFalse(cb.isSelected());
+        });
+
+
+        for (int i = 0; i < techGlobalCheckBoxPage.checkboxInput2.size(); i++) {
+
+            techGlobalCheckBoxPage.checkboxLabel2.get(i).click();
+            Assert.assertTrue(techGlobalCheckBoxPage.checkboxInput2.get(i).isDisplayed());
+
+        }
+
+        for (int i = 0; i < techGlobalCheckBoxPage.checkboxInput2.size(); i++) {
+            techGlobalCheckBoxPage.checkboxLabel2.get(i).click();
+            Assert.assertFalse(techGlobalCheckBoxPage.checkboxInput2.get(i).isSelected());
+        }
+
+    }
+
 
 }

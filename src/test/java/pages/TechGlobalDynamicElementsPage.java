@@ -15,6 +15,6 @@ public class TechGlobalDynamicElementsPage extends TechGlobalBase {
     @FindBy(css = "p[id*='box_1_']")
     public WebElement box1;
 
-    @FindBy(css = "p[id*='box_1_']")
+    @FindBy(css = "p[id*='box_2_']")
     public WebElement box2;
 }
