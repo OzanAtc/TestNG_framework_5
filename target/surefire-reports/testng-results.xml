@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="2" total="16" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="124461" started-at="2023-01-22T16:50:29 EST" finished-at="2023-01-22T16:52:33 EST">
+    <groups>
+    </groups>
+    <test name="All Functionalities" duration-ms="124461" started-at="2023-01-22T16:50:29 EST" finished-at="2023-01-22T16:52:33 EST">
+      <class name="scripts.TechGlobalFrontendTestingHomeTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalFrontendTestingHomeTest@6e1567f1]" name="setup" is-config="true" duration-ms="2094" started-at="2023-01-22T16:50:42 EST" finished-at="2023-01-22T16:50:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalFrontendTestingHomeTest@6e1567f1]" name="setPage" is-config="true" duration-ms="1" started-at="2023-01-22T16:50:44 EST" finished-at="2023-01-22T16:50:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateFrontendTestingURL()[pri:2, instance:scripts.TechGlobalFrontendTestingHomeTest@6e1567f1]" name="validateFrontendTestingURL" duration-ms="414" started-at="2023-01-22T16:50:44 EST" description="Validate URL" finished-at="2023-01-22T16:50:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFrontendTestingURL -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalFrontendTestingHomeTest@6e1567f1]" name="teardown" is-config="true" duration-ms="82" started-at="2023-01-22T16:50:45 EST" finished-at="2023-01-22T16:50:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalFrontendTestingHomeTest -->
+      <class name="scripts.TechGlobalDynamicElementsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalDynamicElementsTest@59494225]" name="setup" is-config="true" duration-ms="2010" started-at="2023-01-22T16:50:39 EST" finished-at="2023-01-22T16:50:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalDynamicElementsTest@59494225]" name="setPage" is-config="true" duration-ms="1" started-at="2023-01-22T16:50:41 EST" finished-at="2023-01-22T16:50:41 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="dynamicElementsTest()[pri:1, instance:scripts.TechGlobalDynamicElementsTest@59494225]" name="dynamicElementsTest" duration-ms="605" started-at="2023-01-22T16:50:41 EST" description="Testing Dynamic Web Elements" finished-at="2023-01-22T16:50:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicElementsTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalDynamicElementsTest@59494225]" name="teardown" is-config="true" duration-ms="95" started-at="2023-01-22T16:50:42 EST" finished-at="2023-01-22T16:50:42 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalDynamicElementsTest -->
+      <class name="scripts.TechGlobalCheckBoxTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="setup" is-config="true" duration-ms="2802" started-at="2023-01-22T16:50:29 EST" finished-at="2023-01-22T16:50:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="setPage" is-config="true" duration-ms="2" started-at="2023-01-22T16:50:32 EST" finished-at="2023-01-22T16:50:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateCheckBoxes()[pri:1, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="validateCheckBoxes" duration-ms="4804" started-at="2023-01-22T16:50:32 EST" description="Validate checkboxes" finished-at="2023-01-22T16:50:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckBoxes -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="teardown" is-config="true" duration-ms="84" started-at="2023-01-22T16:50:36 EST" finished-at="2023-01-22T16:50:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="setup" is-config="true" duration-ms="2025" started-at="2023-01-22T16:50:36 EST" finished-at="2023-01-22T16:50:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="setPage" is-config="true" duration-ms="1" started-at="2023-01-22T16:50:38 EST" finished-at="2023-01-22T16:50:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateCheckBoxes2()[pri:2, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="validateCheckBoxes2" duration-ms="777" started-at="2023-01-22T16:50:38 EST" description="Validate checkboxes of second group" finished-at="2023-01-22T16:50:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckBoxes2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalCheckBoxTest@6e06451e]" name="teardown" is-config="true" duration-ms="80" started-at="2023-01-22T16:50:39 EST" finished-at="2023-01-22T16:50:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalCheckBoxTest -->
+      <class name="scripts.TechGlobalMultipleWindowsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="setup" is-config="true" duration-ms="2020" started-at="2023-01-22T16:52:21 EST" finished-at="2023-01-22T16:52:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="setPage" is-config="true" duration-ms="598" started-at="2023-01-22T16:52:23 EST" finished-at="2023-01-22T16:52:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateTheAppleLink()[pri:1, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="validateTheAppleLink" duration-ms="2080" started-at="2023-01-22T16:52:24 EST" description="Validate the Apple link" finished-at="2023-01-22T16:52:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheAppleLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="teardown" is-config="true" duration-ms="96" started-at="2023-01-22T16:52:26 EST" finished-at="2023-01-22T16:52:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="setup" is-config="true" duration-ms="2002" started-at="2023-01-22T16:52:26 EST" finished-at="2023-01-22T16:52:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="setPage" is-config="true" duration-ms="595" started-at="2023-01-22T16:52:28 EST" finished-at="2023-01-22T16:52:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="FAIL" signature="validateLinkURLs()[pri:2, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="validateLinkURLs" duration-ms="4368" started-at="2023-01-22T16:52:29 EST" description="Validate link urls" finished-at="2023-01-22T16:52:33 EST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.microsoft.com/en-us/] but found [https://www.microsoft.com/en-ca/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.microsoft.com/en-us/] but found [https://www.microsoft.com/en-ca/]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at scripts.TechGlobalMultipleWindowsTest.validateLinkURLs(TechGlobalMultipleWindowsTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLinkURLs -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalMultipleWindowsTest@4566e5bd]" name="teardown" is-config="true" duration-ms="132" started-at="2023-01-22T16:52:33 EST" finished-at="2023-01-22T16:52:33 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalMultipleWindowsTest -->
+      <class name="scripts.TechGlobalWaitsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalWaitsTest@13805618]" name="setup" is-config="true" duration-ms="2021" started-at="2023-01-22T16:50:59 EST" finished-at="2023-01-22T16:51:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalWaitsTest@13805618]" name="setPage" is-config="true" duration-ms="1" started-at="2023-01-22T16:51:01 EST" finished-at="2023-01-22T16:51:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateRedBox()[pri:1, instance:scripts.TechGlobalWaitsTest@13805618]" name="validateRedBox" duration-ms="35609" started-at="2023-01-22T16:51:01 EST" description="Validate red box is visible" finished-at="2023-01-22T16:51:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRedBox -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalWaitsTest@13805618]" name="teardown" is-config="true" duration-ms="91" started-at="2023-01-22T16:51:36 EST" finished-at="2023-01-22T16:51:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalWaitsTest -->
+      <class name="scripts.TechGlobalRadioButtonsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="setup" is-config="true" duration-ms="1995" started-at="2023-01-22T16:50:47 EST" finished-at="2023-01-22T16:50:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="setPage" is-config="true" duration-ms="1" started-at="2023-01-22T16:50:49 EST" finished-at="2023-01-22T16:50:49 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="languageRadioButtons()[pri:1, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="languageRadioButtons" duration-ms="6816" started-at="2023-01-22T16:50:49 EST" description="Validate TechGlobal Language Radio Buttons" finished-at="2023-01-22T16:50:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageRadioButtons -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="teardown" is-config="true" duration-ms="84" started-at="2023-01-22T16:50:56 EST" finished-at="2023-01-22T16:50:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="setup" is-config="true" duration-ms="2040" started-at="2023-01-22T16:50:56 EST" finished-at="2023-01-22T16:50:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="setPage" is-config="true" duration-ms="1" started-at="2023-01-22T16:50:58 EST" finished-at="2023-01-22T16:50:58 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="languageRadioButtons2()[pri:2, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="languageRadioButtons2" duration-ms="794" started-at="2023-01-22T16:50:58 EST" description="Validate TechGlobal Language Practice" finished-at="2023-01-22T16:50:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- languageRadioButtons2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalRadioButtonsTest@cb644e]" name="teardown" is-config="true" duration-ms="80" started-at="2023-01-22T16:50:59 EST" finished-at="2023-01-22T16:50:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalRadioButtonsTest -->
+      <class name="scripts.TechGlobalHeaderTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalHeaderTest@5cb9f472]" name="setup" is-config="true" duration-ms="2034" started-at="2023-01-22T16:50:45 EST" finished-at="2023-01-22T16:50:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTechGlobalHeaderDropdownOptions()[pri:2, instance:scripts.TechGlobalHeaderTest@5cb9f472]" name="validateTechGlobalHeaderDropdownOptions" duration-ms="201" started-at="2023-01-22T16:50:47 EST" finished-at="2023-01-22T16:50:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTechGlobalHeaderDropdownOptions -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalHeaderTest@5cb9f472]" name="teardown" is-config="true" duration-ms="81" started-at="2023-01-22T16:50:47 EST" finished-at="2023-01-22T16:50:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalHeaderTest -->
+      <class name="scripts.TechGlobalDropdownsTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setup" is-config="true" duration-ms="2402" started-at="2023-01-22T16:51:36 EST" finished-at="2023-01-22T16:51:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setPage" is-config="true" duration-ms="583" started-at="2023-01-22T16:51:39 EST" finished-at="2023-01-22T16:51:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="selectDeliveryOption()[pri:1, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="selectDeliveryOption" duration-ms="5093" started-at="2023-01-22T16:51:39 EST" description="Select Delivery option" finished-at="2023-01-22T16:51:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDeliveryOption -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="teardown" is-config="true" duration-ms="88" started-at="2023-01-22T16:51:45 EST" finished-at="2023-01-22T16:51:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setup" is-config="true" duration-ms="2030" started-at="2023-01-22T16:51:45 EST" finished-at="2023-01-22T16:51:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setPage" is-config="true" duration-ms="611" started-at="2023-01-22T16:51:47 EST" finished-at="2023-01-22T16:51:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="FAIL" signature="selectProductOption()[pri:2, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="selectProductOption" duration-ms="20116" started-at="2023-01-22T16:51:47 EST" description="Select iPhone14 Pro Max option" finished-at="2023-01-22T16:52:07 EST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: iPhone14 Pro Max
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OZDEN-iMac.ht.home', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5.1', java.version: '1.8.0_341'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: iPhone14 Pro Max
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OZDEN-iMac.ht.home', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5.1', java.version: '1.8.0_341'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at utilities.DropdownHandler.selectByVisibleText(DropdownHandler.java:24)
+at scripts.TechGlobalDropdownsTest.selectProductOption(TechGlobalDropdownsTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductOption -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="teardown" is-config="true" duration-ms="86" started-at="2023-01-22T16:52:07 EST" finished-at="2023-01-22T16:52:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setup" is-config="true" duration-ms="2099" started-at="2023-01-22T16:52:07 EST" finished-at="2023-01-22T16:52:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setPage" is-config="true" duration-ms="572" started-at="2023-01-22T16:52:10 EST" finished-at="2023-01-22T16:52:10 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="selectColorOption()[pri:3, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="selectColorOption" duration-ms="4073" started-at="2023-01-22T16:52:10 EST" description="Select Yellow options" finished-at="2023-01-22T16:52:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectColorOption -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="teardown" is-config="true" duration-ms="86" started-at="2023-01-22T16:52:14 EST" finished-at="2023-01-22T16:52:14 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setup" is-config="true" duration-ms="2025" started-at="2023-01-22T16:52:14 EST" finished-at="2023-01-22T16:52:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="setPage" is-config="true" duration-ms="581" started-at="2023-01-22T16:52:16 EST" finished-at="2023-01-22T16:52:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPage -->
+        <test-method status="PASS" signature="validateTheItemSelected()[pri:4, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="validateTheItemSelected" duration-ms="4276" started-at="2023-01-22T16:52:17 EST" description="Validate the selected item message" finished-at="2023-01-22T16:52:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTheItemSelected -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalDropdownsTest@56ef9176]" name="teardown" is-config="true" duration-ms="87" started-at="2023-01-22T16:52:21 EST" finished-at="2023-01-22T16:52:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.TechGlobalDropdownsTest -->
+    </test> <!-- All Functionalities -->
+  </suite> <!-- Regression -->
+</testng-results>

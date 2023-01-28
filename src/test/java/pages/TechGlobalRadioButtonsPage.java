@@ -23,7 +23,7 @@ public class TechGlobalRadioButtonsPage extends TechGlobalBasePage{
 
 
     public TechGlobalRadioButtonsPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
+        super();
     }
 
     @FindBy(css = "#radio-button-group_1 label")

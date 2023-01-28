@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Regression</th></tr>
+<tr><td><a href="#t0">All Functionalities</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">124,461</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Regression</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Functionalities &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">scripts.TechGlobalDropdownsTest</td><td><a href="#m0">selectProductOption</a></td><td rowspan="1">1674424307766</td><td rowspan="1">20116</td></tr><tr class="failedodd"><td rowspan="1">scripts.TechGlobalMultipleWindowsTest</td><td><a href="#m1">validateLinkURLs</a></td><td rowspan="1">1674424349166</td><td rowspan="1">4368</td></tr><tr><th colspan="4">All Functionalities &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">scripts.TechGlobalCheckBoxTest</td><td><a href="#m2">validateCheckBoxes</a></td><td rowspan="1">1674424232029</td><td rowspan="1">4804</td></tr><tr class="passedeven"><td><a href="#m3">validateCheckBoxes2</a></td><td rowspan="1">1674424238947</td><td rowspan="1">777</td></tr><tr class="passedodd"><td rowspan="3">scripts.TechGlobalDropdownsTest</td><td><a href="#m4">selectColorOption</a></td><td rowspan="1">1674424330645</td><td rowspan="1">4073</td></tr><tr class="passedodd"><td><a href="#m5">selectDeliveryOption</a></td><td rowspan="1">1674424299944</td><td rowspan="1">5093</td></tr><tr class="passedodd"><td><a href="#m6">validateTheItemSelected</a></td><td rowspan="1">1674424337411</td><td rowspan="1">4276</td></tr><tr class="passedeven"><td rowspan="1">scripts.TechGlobalDynamicElementsTest</td><td><a href="#m7">dynamicElementsTest</a></td><td rowspan="1">1674424241816</td><td rowspan="1">605</td></tr><tr class="passedodd"><td rowspan="1">scripts.TechGlobalFrontendTestingHomeTest</td><td><a href="#m8">validateFrontendTestingURL</a></td><td rowspan="1">1674424244611</td><td rowspan="1">414</td></tr><tr class="passedeven"><td rowspan="1">scripts.TechGlobalHeaderTest</td><td><a href="#m9">validateTechGlobalHeaderDropdownOptions</a></td><td rowspan="1">1674424247142</td><td rowspan="1">201</td></tr><tr class="passedodd"><td rowspan="1">scripts.TechGlobalMultipleWindowsTest</td><td><a href="#m10">validateTheAppleLink</a></td><td rowspan="1">1674424344392</td><td rowspan="1">2080</td></tr><tr class="passedeven"><td rowspan="2">scripts.TechGlobalRadioButtonsTest</td><td><a href="#m11">languageRadioButtons</a></td><td rowspan="1">1674424249420</td><td rowspan="1">6816</td></tr><tr class="passedeven"><td><a href="#m12">languageRadioButtons2</a></td><td rowspan="1">1674424258362</td><td rowspan="1">794</td></tr><tr class="passedodd"><td rowspan="1">scripts.TechGlobalWaitsTest</td><td><a href="#m13">validateRedBox</a></td><td rowspan="1">1674424261258</td><td rowspan="1">35609</td></tr></tbody>
+</table>
+<h2>All Functionalities</h2><h3 id="m0">scripts.TechGlobalDropdownsTest#selectProductOption</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: iPhone14 Pro Max
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;OZDEN-iMac.ht.home&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.5.1&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at utilities.DropdownHandler.selectByVisibleText(DropdownHandler.java:24)
+	at scripts.TechGlobalDropdownsTest.selectProductOption(TechGlobalDropdownsTest.java:39)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">scripts.TechGlobalMultipleWindowsTest#validateLinkURLs</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [https://www.microsoft.com/en-us/] but found [https://www.microsoft.com/en-ca/]
+	at scripts.TechGlobalMultipleWindowsTest.validateLinkURLs(TechGlobalMultipleWindowsTest.java:43)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">scripts.TechGlobalCheckBoxTest#validateCheckBoxes</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">scripts.TechGlobalCheckBoxTest#validateCheckBoxes2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">scripts.TechGlobalDropdownsTest#selectColorOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">scripts.TechGlobalDropdownsTest#selectDeliveryOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">scripts.TechGlobalDropdownsTest#validateTheItemSelected</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">scripts.TechGlobalDynamicElementsTest#dynamicElementsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">scripts.TechGlobalFrontendTestingHomeTest#validateFrontendTestingURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">scripts.TechGlobalHeaderTest#validateTechGlobalHeaderDropdownOptions</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">scripts.TechGlobalMultipleWindowsTest#validateTheAppleLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">scripts.TechGlobalRadioButtonsTest#languageRadioButtons</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">scripts.TechGlobalRadioButtonsTest#languageRadioButtons2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">scripts.TechGlobalWaitsTest#validateRedBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -42,7 +42,6 @@ public class TechGlobalRadioButtonsTest extends TechGlobalBase{
 
         }
 
-
         techGlobalRadioButtonsPage.radioButtonLabel.get(0).click();
         Waiter.pause(3);
 

@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 124.747 sec <<< FAILURE! - in TestSuite
+selectProductOption(scripts.TechGlobalDropdownsTest)  Time elapsed: 20.12 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: iPhone14 Pro Max
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OZDEN-iMac.ht.home', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.5.1', java.version: '1.8.0_341'
+Driver info: driver.version: unknown
+	at scripts.TechGlobalDropdownsTest.selectProductOption(TechGlobalDropdownsTest.java:39)
+
+validateLinkURLs(scripts.TechGlobalMultipleWindowsTest)  Time elapsed: 4.369 sec  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.microsoft.com/en-us/] but found [https://www.microsoft.com/en-ca/]
+	at scripts.TechGlobalMultipleWindowsTest.validateLinkURLs(TechGlobalMultipleWindowsTest.java:43)
+
