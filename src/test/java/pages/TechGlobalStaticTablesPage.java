@@ -26,7 +26,7 @@ public class TechGlobalStaticTablesPage extends TechGlobalBasePage{
     public List<List<WebElement>> getTableData() {
         List<List<WebElement>> tableData = new ArrayList<>();
 
-        for (int i = 0; i <= tableColumn.size(); i++) {
+        for (int i = 1; i <= tableColumn.size(); i++) {
             tableData.add(Driver.getDriver().findElements(By.cssSelector("tbody>tr:nth-child(" + i + ") td")));
         }
 
